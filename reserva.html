@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMPING MONTEVER</title>
+    <link rel="stylesheet" href="reserva.css">
+</head>
+
+<body>
+  <h1 class="titulo">Glamping Montever</h1>
+    <nav>
+        <ul>
+          <img class="logo" src="img/logo (2).png" alt="logo" width="60" height="60">
+          
+                             
+            <a href="index.html">Inicio</a>
+            <a href="reserva.css">Reservar</a>       
+            <a href="nosotros.html">Nosotros</a>       
+                    
+            </ul>         
+</nav>
+<h3>¡Nuestras tarifas!
+</h3>
+  <p>Con nosotros vas a encontrar diferentes servicios y tipos de cabañas, (recuerda que nuestras tarifas incluyen alimentación (Desayuno y almuerzo). )</p>
+<div class="containercabañas">
+    <div class="cabañas">
+    <h4>Cabaña familiar. 6- 7 personas.</h4> 
+    <img src="img/familiar.jpg" alt="familiar" height="300" width="300">
+    <h5> $400.000 por noche (sin jacuzzi)</h5></div>
+    <div class="cabañas">
+      <h4>Cabaña familiar. 6- 7 personas.</h4> 
+      <img src="img/familiarconjacuzzi.jpg" alt="conjacuzzi">
+      <h5>$500.000 por noche (con jacuzzi)</h5>
+
+    </div>
+    <div class="cabañas">
+      <h4>Cabaña para pareja </h4>
+      <img src="img/sinjacuzzi.jpg" alt="sin">
+      <h5>$250.000 por noche(sin jacuzzi)</h5>
+
+
+    </div> 
+    <div class="cabañas">
+    <h4>Cabaña para pareja </h4>
+    <img src="img/pareja.jpg" alt="pareja" width="300" height="300"> 
+    <h5> $350.000 por noche(con jacuzzi)</h5>
+  </div>
+  <div class="cabañas">
+    <h4>Día de sol (Cuenta con alimentación, desayuno y almuerzo.)</h4>
+    <img src="img/diadesol.jpg" alt="sol" width="300" height="300">
+    <h5>$150.000 por persona</h5>
+</div>
+</div>
+    <h1>
+      <center>Formulario de Reserva para glamping</center>
+    </h1>
+   <center>
+    <form>
+        <label for="correo">Nombre de persona que realiza la reserva: </label>
+        <input type="text" name="Nombre"  placeholder="Ingrese nombre:"> <br><br>
+        <p>Ingrese el correo de la persona que realiza la reserva:</p>
+
+        <label for="correo" >Correo Electrónico: </label>
+        <input type="text" name="Correo" class="textos"  placeholder="Ingrese su correo: ">
+
+        <h3>Tipo de estadía</h3>
+        <label><input type="radio" name="estadia" value="Amanecida">Amanecida</label>
+
+        <label><input type="radio" name="estadia" value="sol">Día de sol</label>
+
+        <h3>TIPO DE CABAÑA </h3>
+        <label><input type="radio" name="tipo" value="sencilla">Familiar</label>
+
+        <label><input type="radio" name="tipo" value="jacuzzi">Pareja</label>
+
+        <h3>OCASIÓN </h3>
+        <label><input type="checkbox" name="intereses" value="cumple">Decoración de cumpleaños</label>
+
+        <label><input type="checkbox" name="intereses" value="ani">Decoración de aniversario</label>
+
+        <label><input type="checkbox" name="intereses" value="Arte">Decoración simple</label> 
+
+        <label><input type="checkbox" name="intereses" value="nin">No estoy interesad@ en ninguno</label> 
+        <br><br>
+        <label for="lista">TIPO DE CABAÑA </label> 
+        <select id="lista" name="lista">
+        <option value="opcion1">Sencilla para pareja</option>
+        <option value="opcion2">Con jacuzzi para pareja</option>
+        <option value="opcion2">Familiar con jacuzzi</option>
+        <option value="opcion2">Familiar sin jacuzzi</option>
+     
+        </select> <br>
+
+    
+    <label for="mi-cuadro-expansible" >Déjanos los nombres completos y documento de identidad de las personas que vienen a visitarnos. </label>
+    <textarea id="mi-cuadro-expansible" name="mi-cuadro-expansible"  placeholder="Escribe los nombres y docuemtos de identidad." oninput="autoExpand(this)" cols="10" rows="10"></textarea> <br>
+
+    Ingresa la foto de tu documento de identidad por ambos lados
+    <input type="file">
+    <br> 
+   Ingresa tu fecha de nacimiento: <input  type="date" placeholder="Fecha de nacimiento "> <br>
+
+   <label class="texto" for="edad">Ingrese su edad: </label>
+<input   class="texto" type="number" id="edad" name="edad">
+    <br><br>
+        <input type="submit" value="Registrar" class="registrar">
+
+        <input type="submit" value="Cancelar" class="cancelar">
+
+    </form> </center>
+    <br> <hr>
+    <footer class="pie">
+      <a href="https://www.instagram.com/"target="_blank">
+     <img src="img/instagram.png" alt="ig" width="5%" height="5%"></a>
+
+     <a href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank">
+     <img src="img/facebook.png" alt="facebook" width="5%" height="5%"></a>
+
+     <a href="https://web.whatsapp.com/" target="_blank">
+     <img src="img/Whatsapp.png" alt="Whatsapp" width="8%" height="8%"></a><br>
+     <h4> Copyright © [2024] Glamping Montever. Todos los derechos reservados.</h4>
+    </footer>
+  </body>
+  </html>
+   
