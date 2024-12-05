@@ -1,0 +1,58 @@
+.titulo{ 
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: rgb(180, 226, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav {
+    padding: 1%; /*el espacio de todo el nav*/
+    text-align: right;
+    background-color: rgb(44, 112, 70);
+}
+.logo{
+    margin-right: 500px; /* Espacio entre el ícono y el menú */
+
+}
+ ul a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 4%; /*el espacio de los elementos*/
+    text-decoration: none; /*elimino el subrayado*/
+
+ }   
+   
+nav ul a:hover {
+    background-color: rgb(180, 226, 183);
+    padding: 40px;
+}
+.pie{
+    display: flex; /* Activar Flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+    background-color:rgb(44, 112, 70);/* Fondo del pie de página */
+    padding: 1%; /* Espaciado interno */
+    margin: 2%;
+    
+   
+}
+.pie img {
+    width: 50px; /* ancho */
+    height: 50px; /* altura*/
+    margin: 8px; /* Espacio entre las imágenes */
+}
+.pie img:hover{
+    transform: scale(1.2); /* Agrandamiento cuando pongo el mouse */
+}
+
+.imageninicio{
+    display: flex;
+}
+#sectionimagenes{
+    margin: 10px;
+    padding: 10px;
+
+}
